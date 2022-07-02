@@ -1,13 +1,14 @@
 void main() {
   String GOD = "ya ALLAH";
-  flutter(GOD);
+  int count = course(50);
+  flutter(GOD, count);
+
+  print('nilai phi : ${nilaiPhi()}');
 }
 
-void flutter(GOD) {
-  int count = course(2);
-  print('Bismilah beli kursus sebanyak $count supaya bisa flutter $GOD');
-}
+void flutter(GOD, count) =>
+    print('Bismilah beli kursus sebanyak $count supaya bisa flutter $GOD');
 
-int course(int sebanyak) {
-  return sebanyak;
-}
+int course(int sebanyak) => sebanyak;
+
+double nilaiPhi() => 3.14;
